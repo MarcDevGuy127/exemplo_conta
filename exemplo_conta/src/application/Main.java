@@ -12,10 +12,16 @@ public class Main {
 		c1.saldo = 200;
 		
 		Conta c2 = new Conta();
-		c2.titular = "Marcelo";
-		c2.saldo = 100;
 		
+		c2 = c1;
+//		c2.titular = "Marcelo";
+//		c2.saldo = 100;
 		
+		if (c1 == c2) {
+			System.out.println("iguais");
+		} else {
+			System.out.println("diferentes");
+		}
 	}
 
 }
