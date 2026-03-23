@@ -11,6 +11,10 @@ public class Main {
 		c1.titular = "Marcelo";
 		c1.saldo = 200;
 		
+		Conta c2 = new Conta();
+		c2.titular = "Marcelo";
+		c2.saldo = 100;
+		
 		
 	}
 
