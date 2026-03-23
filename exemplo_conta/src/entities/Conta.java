@@ -6,4 +6,16 @@ public class Conta {
 	String agencia;
 	double saldo;
 	String dataAbertura;
+	
+	public void sacar(double saldo) {
+		this.saldo -= saldo;
+	}
+	
+	public void depositar(double saldo) {
+		this.saldo += saldo;
+	}
+	
+	public void calculaRendimento() {
+		this.saldo *= 0.1;
+	}
 }
