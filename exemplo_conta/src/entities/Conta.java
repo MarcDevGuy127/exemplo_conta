@@ -7,15 +7,19 @@ public class Conta {
 	double saldo;
 	String dataAbertura;
 	
-	public void sacar(double saldo) {
+	private void sacar(double saldo) {
 		this.saldo -= saldo;
 	}
 	
-	public void depositar(double saldo) {
+	private void depositar(double saldo) {
 		this.saldo += saldo;
 	}
 	
-	public void calculaRendimento() {
+	private void calculaRendimento() {
 		this.saldo *= 0.1;
+	}
+	
+	private void recuperarDadosParaImpressao() {
+		System.out.println("");
 	}
 }
