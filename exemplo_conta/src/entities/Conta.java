@@ -1,11 +1,11 @@
 package entities;
 
 public class Conta {
-	String titular;
-	int numero;
-	String agencia;
-	double saldo;
-	String dataAbertura;
+	public String titular;
+	public int numero;
+	public String agencia;
+	public double saldo;
+	public String dataAbertura;
 
 	public void sacar(double saldo) {
 		this.saldo -= saldo;
